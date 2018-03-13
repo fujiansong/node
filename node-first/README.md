@@ -15,3 +15,13 @@
         nvm list                //查看本地安装node列表
         nvm use 8.10.0          //使用node 8.10.0 版本
         node -v                 //检查node版本
+
+3. 初始化项目
+
+    命令
+
+        npm init                //创建一个package.json配置文件 
+        
+    或者使用
+
+        npm init -y             //创建默认的package.json,创建过程中不会提问。
